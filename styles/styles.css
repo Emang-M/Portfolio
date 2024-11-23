@@ -1,8 +1,14 @@
-h1 {
-    font-family: Monserrat;
-    font-weight: 100;
+:root{
+  --primary-text: Montserrat;
+  --secondary-text:Josefin Sans;  
 }
 
-p{
-    font-family: Josefin Sana;
+header{
+    font-family: var(--primary-text);
+}
+
+
+
+.navbar img{
+    margin-left:2px;
 }
