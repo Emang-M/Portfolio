@@ -14,9 +14,6 @@ h1, p {
 
 }
 
-.navbar img{
-    margin-left:2px;
-}
 
 .promo-message{
   text-align: center;
@@ -28,17 +25,43 @@ h1, p {
   border-radius: 30px 50px;
 }
 
-.button{
-  padding: 5px 6px 8px;
+button{
   border: 1px solid rgb(56, 8, 8);
-  transition: 200ms ease, transform 200ms ease-in-out;
-  text-decoration: none;
-  color: rgb(64, 25, 25);
-  border-radius: 14px;
-  display:inline-block;
-  text-align:center;
+  border-color:rgb(56, 8, 8) ;
+color:whitesmoke;
 }
 
+.btn {
+  --bs-btn-border-color: rgb(56, 8, 8);
+  }
+
 .button:hover{
-  background-color: aqua;
+  background-color:rgb(56,8,8);
+  color:#f8f9fa;
+}
+
+@media(max-width:375px) {
+  .logo{
+    display: none;
+}
+}
+
+@media(min-width:376px){
+  .logo{
+    margin-left:2px;
+    display:block;
+  }
+}
+
+@media(max-width:1200px){
+  .hero-background{
+    width: 60%;
+  }
+}
+
+@media (max-width:768px){
+.hero-background{
+  width:65%;
+  height: 150px;
+}
 }
