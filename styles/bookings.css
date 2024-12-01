@@ -5,7 +5,11 @@
   
   header{
       font-family: var(--primary-text);
-      font-weight: 100;
+      font-weight: 300;
+  }
+
+  footer{
+    margin-top:70%;
   }
 
   h1, p {
@@ -18,3 +22,16 @@
     color:rgb(56, 8, 8);
 
   }
+
+  .contact-page{
+  height: 100%;
+  background-color:rgba(0, 128, 128, 0.305); 
+  padding: 20px; 
+  transition: background-color 0.3s ease; 
+  }
+
+  .contact-page:hover {
+    background-color: darkcyan; 
+  }
+
+  
