@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 200;
 
 }
+h1{
+  font-weight: 300;
+}
 
 a{
   text-decoration:underline;
@@ -90,10 +93,6 @@ about-section{
    height:397px;
 }
 
-.content-container {
-  padding: 160px 20px;
-}
-
 .content {
   margin-bottom: 40px;
 }
@@ -122,9 +121,6 @@ color:whitesmoke;
     font-size:small;
 }
 
-h1 {
-  font-size:24px;
-}
 
 .btn{
 font-size: 12px;;
