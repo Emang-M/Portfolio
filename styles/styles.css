@@ -56,6 +56,47 @@ about-section{
   margin-top: 5%;
 }
 
+/* Ensures images look consistent across devices */
+.catalogue-1   {
+  height:400px;
+  width: 350px;
+}
+
+.catalogue-2 {
+  width: 350px;
+  height:397px;
+}
+
+.catalogue-3 {
+  width: 350px;
+  height:397px;
+}
+
+
+.catalogue-4 {
+  width: 350px;
+  height:397px;
+}
+
+
+.catalogue-5 {
+  width: 350px;
+  height:397px;
+}
+
+
+.catalogue-6{
+   width: 350px;
+   height:397px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin-bottom: 40px;
+}
 
 button{
   border: 1px solid rgb(56, 8, 8);
