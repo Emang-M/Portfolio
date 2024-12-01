@@ -26,7 +26,8 @@
   .contact-page{
   height: 100%;
   background-color:rgba(0, 128, 128, 0.305); 
-  padding: 20px; 
+  padding: 36px 15px;
+    margin: 60px;
   transition: background-color 0.3s ease; 
   }
 
